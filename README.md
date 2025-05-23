@@ -1,1 +1,1 @@
-# Guanitng-Fang
+# Two-person Mathematics Competition
