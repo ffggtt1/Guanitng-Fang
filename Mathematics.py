@@ -47,9 +47,9 @@ def ask_question(player_name, topic):
             print("Correct!")
             return True
         else:
-            print(f"Wrong. The correct answer is {answer}.")
+            print(f"Wrong, The correct answer is {answer}.")
     except:
-        print("Invalid input. That counts as wrong.")
+        print("Invalid input, That counts as wrong.")
     return False
 
 # topic selection
@@ -87,7 +87,7 @@ def main():
             winner = current_player
         turn += 1
 
-    print(f"\n{winner} wins the game! Congratulations!")
+    print(f"\n{winner} wins the game!")
 
 if __name__ == "__main__":
     main()
