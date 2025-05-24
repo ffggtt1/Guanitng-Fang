@@ -60,7 +60,7 @@ def choose_topic():
     print("3. Statistics (hard)")
     topic = input("Enter 1 / 2 / 3: ").strip()
     if topic not in ['1', '2', '3']:
-        print("Invalid choice. Using default: Arithmetic.")
+        print("Invalid choice, Using default: Arithmetic.")
         topic = '1'
     return topic
 
